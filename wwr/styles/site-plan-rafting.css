@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+:root {
+    --primary-color: #2d4a73;
+    --secondary-color: #6ac6e2;
+    --accent1-color: #8ccb84;
+    --accent2-color: #dbcca5;
+  
+    --heading-font: 'Raleway', serif;
+    --paragraph-font: 'Montserrat', serif;
+  
+    --nav-background-color: #6ac6e2;
+    --nav-link-color: #2d4a73;
+    --nav-hover-link-color: #8ccb84;
+    --nav-hover-background-color: #dbcca5;
+  }
+  body {
+    font-family: var(--Montserrat-font);
+    margin: 300px;
+    padding: 20px;
+  }
+          
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--Raleway-font);
+    color: var(--primary-color);
+  }
+  header {
+    padding: 20px;
+    background-color: var(--7CC6FE-color);
+  }
+  p {
+    padding: 25px;
+  }
+  nav {
+    background-color: var(--nav-ac6e2-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-ac6e2-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
