@@ -34,11 +34,14 @@ aside {
   background-color: #eee;
   color: #333;
   width: 20em;
+  position: relative;
   text-align: center;
 }
 
 aside h2 {
-  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 100px;
 }
 
 aside img {
