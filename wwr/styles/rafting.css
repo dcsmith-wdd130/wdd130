@@ -6,7 +6,7 @@
     --accent2-color: #dbcca5;
   
     --heading-font: 'Raleway', serif;
-    --paragraph-font: 'Montserrat', serif;
+    --paragraph-font: Arial, sans-serif;
   
     --nav-background-color: #6ac6e2;
     --nav-link-color: #2d4a73;
@@ -14,15 +14,9 @@
     --nav-hover-background-color: #dbcca5;
   }
 
-  .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
   body {
     font-family: var(--paragraph-font);
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
   }
           
@@ -33,6 +27,30 @@ h1, h2, h3, h4, h5, h6 {
 p {
     color: #000;
 }
+
+.hero {
+  position: absolute;
+  z-index: -1;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1, article {
+  position: absolute;
+}
+
+.hero article img {
+  float: right;
+}
+
 .sociallinks a {
     text-decoration: none;
+}
+
+.sociallinks img {
+  width: 50px;
 }
