@@ -22,6 +22,106 @@
     padding: 5px;
   }
 
+
+  /* Week 4 */
+
+  header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 210px 1fr 2fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+    background-color: var(--primary-color);
+  }
+  
+  .logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 210px;
+    height: auto;
+  }
+
+  nav {
+    text-align: center;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  
+  .navigation li {
+    flex: 1 1 100%;
+  }
+  
+  .navigation a {
+    display: block;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+  }
+  
+  .navigation a:hover {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #6ac6e2;
+  }
+
+  .history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    background-color: #cccccc;
+  }
+
+  .history-hdr {
+    grid-column-start: 1;
+    grid-column-end: 4; 
+  }
+
+  .history-item1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;
+  }
+
+  .history-item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .history-item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+  }
+
+  .history_img {
+    width: 300px;
+  }
+
+  .adventure {
+    display: flex;
+  }
+
+  .adventure figure img{
+    width: 150px;
+  }
+
+  figure {
+    text-align: center;
+  }
+
+  footer {
+    background-color: var(--primary-color);
+    color:#fff;
+  }
+  
+
+  /* Week 4 end */
+
           
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -74,3 +174,14 @@ article {
 .social {
   width: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
