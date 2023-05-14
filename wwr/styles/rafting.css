@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@1,700&display=swap');
+
+
 :root {
     --primary-color: #2d4a73;
     --secondary-color: #6ac6e2;
     --accent1-color: #8ccb84;
     --accent2-color: #dbcca5;
   
-    --heading-font:, 'Montserrat', Verdana, Arial, sans-serif;
-    --paragraph-font: 'Raleway', Verdana, Arial, sans-serif;
+    --heading-font: 'Montserrat', Verdana, sans-serif; 
+    --paragraph-font: 'Raleway', Verdana, sans-serif;
   
     --nav-background-color: #6ac6e2;
     --nav-link-color: #2d4a73;
