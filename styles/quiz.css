@@ -16,7 +16,7 @@ body {
     padding: 20px;
 }
 
-input[type=text] {
+input[type=text], [type=number] {
     width:100%;
     padding: 5px 10px;
     box-sizing: border-box;
@@ -62,7 +62,4 @@ select{
     padding: 5px 0px;
   }
 
-  .screen {
-    text-align: center;
-  }
 
