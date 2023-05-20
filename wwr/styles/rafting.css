@@ -257,7 +257,7 @@ select {
   resize: vertical;
 }
 
-input[type="submit"] {
+.submit {
   background-color: var(--primary-color);
   width: 100%;
   border: none;
