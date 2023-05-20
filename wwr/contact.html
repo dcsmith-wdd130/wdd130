@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact | Extreme River Rafting">
+    <meta name="author" content="Colby Smith">
+    <link rel="stylesheet" type="text/css" href="styles/rafting.css">
+    <title>Contact | Extreme River Rafting</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.png" alt="Extreme River Rafting Logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About US</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+   
+      <h1>Contact Us</h1>
+
+      <div class="contactcontainer">
+
+        <div class="contactform">
+          <p>Looking for answers?  We have you covered!  Just fill out the form below and we will get back to you as soon as possible.</p>
+          <form action="/">
+            <div>
+              <label for="name">Name:</label>
+            </div>
+            <div><input type="text" id="name" name="name"></div>
+            <div>
+              <label for="email">Email:</label>
+            </div>
+            <div><input type="text" id="email" name="email"></div>
+            <div>
+              <label for="reason">Reason for contacting us:</label>
+            </div>
+            <div>
+                <select id="reason" name="reason">
+                  <option value="" selected disabled>Choose One...</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Reservation Question">Reservation Question</option>
+                  <option value="Website Suggestion">Website Suggestion</option>
+                  <option value="Other">Other</option>
+                </select>
+            </div>
+            <div>
+              <label for="comment">Comment/Question:</label>
+            </div>
+            <div>
+              <textarea id="comment" name="comment"></textarea>
+            </div>
+            <div>
+              <label>Please subscribe me to the monthly newsletter: <input type="checkbox" name="subscribe" checked="checked"></label>
+            </div>
+            <div>
+              <input type="submit" value="Submit Your Question">
+            </div>
+          </form>
+        </div>
+
+
+        <div id="map-address">
+          <div class="map">
+            <iframe width="550" height="550" id="gmap_canvas" src="https://maps.google.com/maps?q=Yale%20Dam%20washington&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+          </div>
+          <div class="address">
+            <p>Extreme River Rafting<br>
+            <b>Address:</b> 12345 River Lane Vancouver, WA 98664<br>
+            <b>Phone:</b> 888-867-5309<br>
+            <b>Email:</b> customercare@extremeriverrafting.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+  <div class="employee">
+    <figure>
+        <img src="images/eployee1.jpg" class="employee-img" alt="Employee Photo">
+        <figcaption>Bill L.</figcaption>
+    </figure>
+    <figure>
+      <img src="images/eployee3.jpg" class="employee-img" alt="Employee Photo">
+      <figcaption>Janet S.</figcaption>
+    </figure>
+    <figure>
+        <img src="images/eployee2.jpg" class="employee-img" alt="Employee Photo">
+        <figcaption>Roger W.</figcaption>
+    </figure>
+    <figure>
+      <img src="images/eployee4.jpg" class="employee-img" alt="Employee Photo">
+      <figcaption>Sally J.</figcaption>
+  </figure>
+  </div>  
+
+
+
+    </main>
+    <footer>
+      <span class="copyright">
+        &copy; 2023 Extreme River Rafting | Colby Smith</span
+      >
+      <span class="socialicons">
+        <a href="http://instagram.com" class="sociallinks" target="_blank"
+          ><img src="images/instagram_logo.png" class="social" alt="Instagram"></a>
+        <a href="http://facebook.com" class="sociallinks" target="_blank"
+          ><img src="images/facebook_logo.png" class="social" alt="Facebook"></a>
+        <a href="http://twitter.com" class="sociallinks" target="_blank"
+          ><img src="images/twitter_logo.png" class="social" alt="Twitter"></a
+      ></span>
+    </footer>
+  </body>
+</html>
