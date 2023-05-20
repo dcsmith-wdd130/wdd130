@@ -37,25 +37,22 @@
             </div>
             <div><input type="text" id="email" name="email"></div>
             <div>
-              <label for="reason">Reason for contacting us:</label>
+              <label for="reason">Reason for contacting us:</label><br>
+                <input type="radio" id="inquiry" name="reason" value="General Inquiry">
+                <label for="inquiry">General Inquiry</label><br>
+                <input type="radio" id="question" name="reason" value="Reservation Question">
+                <label for="question">Reservation Question</label><br>
+                <input type="radio" id="suggestion" name="reason" value="Website Suggestion">
+                <label for="suggestion">Website Suggestion</label>
             </div>
             <div>
-                <select id="reason" name="reason">
-                  <option value="" selected disabled>Choose One...</option>
-                  <option value="General Inquiry">General Inquiry</option>
-                  <option value="Reservation Question">Reservation Question</option>
-                  <option value="Website Suggestion">Website Suggestion</option>
-                  <option value="Other">Other</option>
-                </select>
-            </div>
-            <div>
-              <label for="comment">Comment/Question:</label>
+              <label for="comment"><br>Comment/Question:</label>
             </div>
             <div>
               <textarea id="comment" name="comment"></textarea>
             </div>
             <div>
-              <label>Please subscribe me to the monthly newsletter: <input type="checkbox" name="subscribe" checked="checked"></label>
+              <label><label for="subscribe">Please subscribe me to the monthly newsletter:</label> <input type="checkbox" id="subscribe" name="subscribe" checked="checked"></label>
             </div>
             <div>
               <input type="submit" value="Submit Your Question">
@@ -66,7 +63,7 @@
 
         <div id="map-address">
           <div class="map">
-            <iframe width="550" height="550" id="gmap_canvas" src="https://maps.google.com/maps?q=Yale%20Dam%20washington&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63134.1815233434!2d-122.61070847731013!3d45.627461879801444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1684603317590!5m2!1sen!2sus" width="550" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="address">
             <p>Extreme River Rafting<br>
@@ -97,14 +94,10 @@
       <figcaption>Sally J.</figcaption>
   </figure>
   </div>  
-
-
-
     </main>
     <footer>
       <span class="copyright">
-        &copy; 2023 Extreme River Rafting | Colby Smith</span
-      >
+        &copy; 2023 Extreme River Rafting | Colby Smith | <a href="images/contact-wire.png" alt="Page Wireframe">Wireframe</a></span>
       <span class="socialicons">
         <a href="http://instagram.com" class="sociallinks" target="_blank"
           ><img src="images/instagram_logo.png" class="social" alt="Instagram"></a>
