@@ -257,7 +257,7 @@ select {
   resize: vertical;
 }
 
-.submit {
+#submitbtn {
   background-color: var(--primary-color);
   width: 100%;
   border: none;
