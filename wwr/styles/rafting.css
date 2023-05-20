@@ -16,7 +16,7 @@
 }
 
 * {
-  font-family: var(--paragraph-font);
+  font-family: "Raleway", Verdana, sans-serif;
 }
 
 body {
@@ -30,8 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
-  color: var(--primary-color);
+  font-family: "Montserrat", Verdana, sans-serif;
+  color: #2d4a73;
 }
 
 h2 {
@@ -39,7 +39,7 @@ h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: "Raleway", Verdana, sans-serif;
   color: #000;
 }
 
@@ -59,7 +59,7 @@ nav {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  font-family: var(--paragraph-font);
+  font-family: "Raleway", Verdana, sans-serif;
   font-size: 1.5rem;
   width: 800px;
   align-items: center;
@@ -122,7 +122,7 @@ nav a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 20px;
   background-color: var(--accent2-color);
-  font-family: var(--paragraph-font);
+  font-family: "Raleway", Verdana, sans-serif;
   color: #000;
   padding: 20px;
 }
