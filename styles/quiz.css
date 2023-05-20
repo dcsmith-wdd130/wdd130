@@ -46,7 +46,7 @@ select{
   }
 
 
-  input[type=submit]{
+  .submit {
     background-color:midnightblue;
     width: 100%;
     border: none;
