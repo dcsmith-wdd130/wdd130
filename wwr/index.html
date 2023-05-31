@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Extreme River Rafting">
+    <meta name="description" content="Welcome to Extreme River Rafting your place for all things river rafting.">
     <meta name="author" content="Colby Smith">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/rafting.css">
-    <title>Extreme River Rafting</title>
+    <title>Home | Extreme River Rafting</title>
   </head>
   <body>
     <header>
@@ -24,7 +24,7 @@
       <div class="hero">
         <img src="images/main-hero.jpg" class="hero_img" alt="Extreme River Rafting Image">
         <h1>Welcome to Extreme River Rafting!</h1>
-        <button class="call-to-action">Check out our Trips!</button>
+        <button class="call-to-action" onclick="window.location.href='trips.html';">Check out our Trips!</button>
       </div>
 
       <div class="h-container">
@@ -35,7 +35,7 @@
 
         <p>Our state-of-the-art equipment and safety protocols prioritize your well-being without compromising on the excitement. Feel the rush as you navigate through the roaring rapids, conquering each wave with a team of fellow adventurers by your side.</p>
 
-        <p>Take a break from the ordinary and dive into the extraordinary with Extreme River Rafting!. Book your trip today and prepare for an extraordinary rafting experience that will leave you craving more. Join us on the river, where the adventure begins!</p>
+        <p>Take a break from the ordinary and dive into the extraordinary with Extreme River Rafting! Book your trip today and prepare for an extraordinary rafting experience that will leave you craving more. Join us on the river, where the adventure begins!</p>
       </div>
 
       <div class="newsletter">
@@ -45,14 +45,16 @@
           <p>Be the first to know about special deals and new trips!</p>
         </div>
         <div>
-          <input type="text" placeholder="Name" name="name" required>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" placeholder="Name" name="name" required>
+          <label for="email" id="email">Email:</label><br>
           <input type="text" placeholder="Email" name="email" required>
           <label>
             <input type="checkbox" checked="checked" name="subscribe"> Send me a monthly newsletter!
           </label>
         </div>
         <div>
-          <input type="submit" value="Subscribe">
+          <input type="submit" value="Sign up!">
         </div>
       </form>
       </div>
