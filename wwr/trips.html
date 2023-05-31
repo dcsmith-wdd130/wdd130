@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Trips | Extreme River Rafting" />
-    <meta name="author" content="Colby Smith" />
-    <link rel="stylesheet" type="text/css" href="styles/rafting.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Trips | Extreme River Rafting">
+    <meta name="author" content="Colby Smith">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/rafting.css">
     <title>Trips | Extreme River Rafting</title>
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="Extreme River Rafting Logo" />
+      <img src="images/logo.png" alt="Extreme River Rafting Logo">
       <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About US</a>
@@ -19,30 +22,105 @@
         <a href="contact.html">Contact Us</a>
       </nav>
     </header>
-    <main id="contact">
-   
-      <h1>Trips</h1>
+    <main id="trips">
+      <div class="intro">
+        <h1>Trips</h1>
+      </div>
+      <p>
+        Reservations can be made below with our booking widgets or via phone by
+        calling 800-892-9223. Reservations made online require at least 3 days
+        advanced notice. Some dates are unavailable if fully booked.
+      </p>
+      <div class="cta">
+      <form action="contact.html">
+        <button class="button">Contact Us to Schedule a Trip!</button>
+      </form>
+      </div>
+      <div class="our-trips">
+        <div class="trips-table">
+          <table class="comparison">
+            <thead>
+              <tr>
+                <th colspan="5">Compare Different Trips</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>River</td>
+                <td>Start Location</td>
+                <td>Length</td>
+                <td>Difficulty</td>
+                <td>Cost</td>
+              </tr>
+              <tr>
+                <td>Rogue River</td>
+                <td>Bend, Oregon</td>
+                <td>4 hours</td>
+                <td>Extreme</td>
+                <td>$125</td>
+              </tr>
+              <tr>
+                <td>Deschutes River</td>
+                <td>Mopin, Oregon</td>
+                <td>2 hours</td>
+                <td>Low</td>
+                <td>$95</td>
+              </tr>
+              <tr>
+                <td>White Salmon River</td>
+                <td>White Salmon, WA</td>
+                <td>6 hours</td>
+                <td>High</td>
+                <td>$150</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="action">              
+          <img src="images/wwr1.jpg" alt="White Water Picture">
+        </div>
 
-  
+        <div class="individual-trips">
+          <section class="trip-gallery">
+              <img class="trip-img" src="images/wwr1.jpg" alt="White Water Picture">
+              <h3>Rogue River</h3>
+              <img class="stars" src="images/star.png" alt="5 Review Stars">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>$125</p>
+              <a href="#">more info</a>
+          </section>  
+          <section class="trip-gallery">
+            <img class="trip-img" src="images/wwr2.jpg" alt="White Water Picture">
+              <h3>Deschutes River</h3>                
+              <img class="stars" src="images/star.png" alt="5 Review Stars">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>$95</p>
+              <a href="#">more info</a>
+          </section> 
+          <section class="trip-gallery">
+            <img class="trip-img" src="images/wwr3.jpg" alt="White Water Picture">
+              <h3>White Salmon River</h3>
+              <img class="stars" src="images/star.png" alt="5 Review Stars">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>$150</p>
+              <a href="#">more info</a>
+          </section>       
+      </div> 
 
-      
 
 
-
+    </div>
     </main>
     <footer>
       <span class="copyright">
-        &copy; 2023 Extreme River Rafting | Colby Smith</span
-      >
+        &copy; 2023 Extreme River Rafting | Colby Smith</span>
       <span class="socialicons">
         <a href="http://instagram.com" class="sociallinks" target="_blank"
-          ><img src="images/instagram_logo.png" class="social" alt="Instagram"
-        /></a>
+          ><img src="images/instagram_logo.png" class="social" alt="Instagram"></a>
         <a href="http://facebook.com" class="sociallinks" target="_blank"
-          ><img src="images/facebook_logo.png" class="social" alt="Facebook"
-        /></a>
+          ><img src="images/facebook_logo.png" class="social" alt="Facebook"></a>
         <a href="http://twitter.com" class="sociallinks" target="_blank"
-          ><img src="images/twitter_logo.png" class="social" alt="Twitter" /></a
+          ><img src="images/twitter_logo.png" class="social" alt="Twitter"></a
       ></span>
     </footer>
   </body>
