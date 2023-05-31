@@ -453,3 +453,11 @@ td {
 .newsletter input[type=submit]:hover {
   opacity: 0.8;
 }
+
+.h-slides{
+  display:flex;
+  flex-direction: row;
+}
+.h-slides img{
+  width: 220px;
+}
